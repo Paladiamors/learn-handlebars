@@ -1,0 +1,9 @@
+<ul>
+  {{#each students}}
+    {{#if this.adult}}
+      <li>{{this.name}}, is an adult</li>
+    {{else}}
+      <li>{{this.name}}, is not an adult</li>
+    {{/if}}
+  {{/each}}
+</ul>
